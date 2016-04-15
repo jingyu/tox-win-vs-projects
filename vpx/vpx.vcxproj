@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="StaticDebug|Win32">
+      <Configuration>StaticDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="StaticDebug|x64">
+      <Configuration>StaticDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="StaticRelease|Win32">
+      <Configuration>StaticRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="StaticRelease|x64">
+      <Configuration>StaticRelease</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\alloccommon.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\blockd.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\copy_c.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\debugmodes.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\dequantize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\entropy.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\entropymode.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\entropymv.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\extend.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\filter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\findnearmv.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\generic\systemdependent.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\idctllm.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\idct_blk.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\loopfilter_filters.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\mbpitch.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\mfqe.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\modecont.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\postproc.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\quant_common.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\reconinter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\reconintra.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\reconintra4x4.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\rtcd.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\setupintrarecon.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\swapyv12buffer.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\treecoder.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\vp8_loopfilter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\filter_x86.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idct_blk_mmx.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idct_blk_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\loopfilter_x86.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\vp8_asm_stubs.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\dboolhuff.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\decodeframe.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\decodemv.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\detokenize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\onyxd_if.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\threading.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\bitstream.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\boolhuff.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\dct.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\denoising.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodeframe.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodeintra.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodemb.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodemv.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\ethreading.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\firstpass.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\lookahead.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\mcomp.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\modecosts.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\onyx_if.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\pickinter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\picklpf.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\ratectrl.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\rdopt.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\segmentation.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\temporal_filter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\tokenize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\treewriter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\vp8_quantize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\denoising_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\quantize_sse4.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\quantize_ssse3.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\vp8_enc_stubs_mmx.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\vp8_enc_stubs_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\vp8_quantize_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\vp8_cx_iface.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\vp8_dx_iface.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_alloccommon.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_blockd.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_common_data.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_debugmodes.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_entropy.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_entropymode.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_entropymv.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_filter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_frame_buffers.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_idct.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_loopfilter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_mvref_common.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_pred_common.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_quant_common.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_reconinter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_reconintra.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_rtcd.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_scale.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_scan.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_seg_common.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_thread_common.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_tile_common.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\x86\vp9_idct_intrin_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_decodeframe.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_decodemv.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_decoder.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_detokenize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_dsubexp.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_dthread.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_aq_complexity.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_aq_cyclicrefresh.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_aq_variance.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_avg.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_bitstream.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_context_tree.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_cost.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_dct.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encodeframe.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encodemb.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encodemv.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encoder.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_ethread.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_extend.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_firstpass.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_lookahead.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_mbgraph.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_mcomp.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_picklpf.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_pickmode.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_quantize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_ratectrl.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_rd.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_rdopt.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_resize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_segmentation.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_skin_detection.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_speed_features.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_subexp.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_svc_layercontext.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_temporal_filter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_tokenize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_treewriter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_avg_intrin_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_dct_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_dct_ssse3.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_error_intrin_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_quantize_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\vp9_cx_iface.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\vp9_dx_iface.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_codec.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_decoder.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_encoder.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_image.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_psnr.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitreader.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitreader_buffer.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitwriter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitwriter_buffer.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\fwd_txfm.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\intrapred.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\inv_txfm.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\loopfilter.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\prob.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\quantize.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\sad.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\subtract.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\variance.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\vpx_convolve.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\vpx_dsp_rtcd.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\fwd_txfm_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\fwd_txfm_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\halfpix_variance_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\inv_txfm_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\loopfilter_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\loopfilter_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\quantize_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad4d_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_impl_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_mmx.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_sse2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_asm_stubs.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_intrin_avx2.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_intrin_ssse3.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_mem\vpx_mem.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\gen_scalers.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\vpx_scale.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\yv12config.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\yv12extend.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\vpx_scale_rtcd.c" />
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_util\vpx_thread.c" />
+    <ClCompile Include="vpx_config.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\copy_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\copy_sse3.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\dequantize_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idctllm_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idctllm_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\iwalsh_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\iwalsh_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\loopfilter_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\mfqe_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\postproc_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\postproc_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\recon_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\recon_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\subpixel_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\subpixel_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\subpixel_ssse3.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\vp8_loopfilter_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\dct_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\dct_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\encodeopt.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\fwalsh_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\quantize_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\temporal_filter_apply_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_dct_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_error_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_temporal_filter_apply_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\halfpix_variance_impl_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\intrapred_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\intrapred_ssse3.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\inv_wht_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\loopfilter_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad4d_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_sse3.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_sse4.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_ssse3.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\subpel_variance_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\subtract_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_impl_mmx.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_convolve_copy_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_ssse3.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_bilinear_sse2.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_bilinear_ssse3.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_ports\emms.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">yasm -Xvc -g cv8 -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">yasm -Xvc -f win32  -I"../../toxcore-deps/libvpx" -I"." "%(FullPath)" -o $(IntDir)%(Filename)_asm.obj</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">Assembling %(Filename)%(Extension)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">$(IntDir)%(Filename)_asm.obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vpx.def" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC1C30B1-CD32-4454-A594-F032315D4A04}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>vpx</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.;../../toxcore-deps/libvpx</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4752;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>vpx.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.;../../toxcore-deps/libvpx</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4752;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>../../toxcore-deps/libvpx/build/vpx.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.;../../toxcore-deps/libvpx</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4752;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>vpx.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.;../../toxcore-deps/libvpx</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4752;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>../../toxcore-deps/libvpx/build/vpx.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

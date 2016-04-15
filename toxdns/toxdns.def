@@ -1,0 +1,6 @@
+LIBRARY toxdns
+EXPORTS
+  tox_dns3_new
+  tox_dns3_kill
+  tox_generate_dns3_string
+  tox_decrypt_dns3_TXT

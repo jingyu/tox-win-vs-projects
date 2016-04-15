@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\vpx">
+      <UniqueIdentifier>{eeaeb3d0-cd66-4d96-ae95-c87433eb10b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vpx-mem">
+      <UniqueIdentifier>{68c90bf5-722c-42d9-9e45-8b4db1c62f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vpx-scale">
+      <UniqueIdentifier>{347e1009-eed2-4452-8c82-dc2f43c6c858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vpx-ports">
+      <UniqueIdentifier>{3cb7af63-0228-4d91-add7-c2eaf2f42e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vpx-dsp">
+      <UniqueIdentifier>{6afc7d11-ed44-4bd1-a56c-320b8629aedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vpx-dsp\x86">
+      <UniqueIdentifier>{1c3531b8-8a59-445c-860d-6b7de9d363eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vpx-util">
+      <UniqueIdentifier>{3d8ba0d9-f1ed-40d3-aa8c-fca24d0cdab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp8">
+      <UniqueIdentifier>{a9dec327-8fe1-4cb6-8f50-b11ee05d1bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp8\common">
+      <UniqueIdentifier>{4a49555f-b05c-43ab-a0ec-2c29c7dfb16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp8\common\generic">
+      <UniqueIdentifier>{1ce6e0e7-3d6f-4be6-b972-a12149c5993f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp8\common\x86">
+      <UniqueIdentifier>{18240602-16a4-46d9-be83-2d9dfe97f0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp8\encoder">
+      <UniqueIdentifier>{81002bb7-6f88-40e9-a748-d12a63570b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp8\encoder\x86">
+      <UniqueIdentifier>{56ba2d3f-493b-4ef4-a5b1-2f2cdf36a369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp8\decoder">
+      <UniqueIdentifier>{093d6314-9c8e-4397-ba2b-9e51532ce580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp9">
+      <UniqueIdentifier>{68230f43-e8ad-42c7-b007-b0658ea64015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp9\common">
+      <UniqueIdentifier>{7d1d3aa8-04f8-42a5-9692-746784a21e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp9\common\x86">
+      <UniqueIdentifier>{eb70efe5-4f06-4c2e-b217-81653ba03be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp9\encoder">
+      <UniqueIdentifier>{e4e7662f-8d50-4ee4-8c4a-3e5884f92e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp9\encoder\x86">
+      <UniqueIdentifier>{b252d1ac-99ef-4f9c-a42e-dda0c22cdb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vp9\decoder">
+      <UniqueIdentifier>{d06e97df-9784-4684-8a55-0bd804d09087}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_codec.c">
+      <Filter>Source Files\vpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_decoder.c">
+      <Filter>Source Files\vpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_encoder.c">
+      <Filter>Source Files\vpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_image.c">
+      <Filter>Source Files\vpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx\src\vpx_psnr.c">
+      <Filter>Source Files\vpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_mem\vpx_mem.c">
+      <Filter>Source Files\vpx-mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\gen_scalers.c">
+      <Filter>Source Files\vpx-scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\vpx_scale.c">
+      <Filter>Source Files\vpx-scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\yv12config.c">
+      <Filter>Source Files\vpx-scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\generic\yv12extend.c">
+      <Filter>Source Files\vpx-scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_scale\vpx_scale_rtcd.c">
+      <Filter>Source Files\vpx-scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitreader.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitreader_buffer.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitwriter.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\bitwriter_buffer.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\intrapred.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\prob.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\vpx_convolve.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\vpx_dsp_rtcd.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\fwd_txfm.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\inv_txfm.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\loopfilter.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\quantize.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\sad.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\subtract.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\variance.c">
+      <Filter>Source Files\vpx-dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\fwd_txfm_avx2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\fwd_txfm_sse2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\halfpix_variance_sse2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\inv_txfm_sse2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\loopfilter_avx2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\loopfilter_sse2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\quantize_sse2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_avx2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad4d_avx2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_avx2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_impl_avx2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_mmx.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_sse2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_asm_stubs.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_intrin_avx2.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_intrin_ssse3.c">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vpx_util\vpx_thread.c">
+      <Filter>Source Files\vpx-util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\alloccommon.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\blockd.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\copy_c.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\debugmodes.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\dequantize.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\entropy.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\entropymode.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\entropymv.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\extend.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\filter.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\findnearmv.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\idct_blk.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\idctllm.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\loopfilter_filters.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\mbpitch.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\mfqe.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\modecont.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\postproc.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\quant_common.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\reconinter.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\reconintra.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\reconintra4x4.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\rtcd.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\setupintrarecon.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\swapyv12buffer.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\treecoder.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\vp8_loopfilter.c">
+      <Filter>Source Files\vp8\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\generic\systemdependent.c">
+      <Filter>Source Files\vp8\common\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\filter_x86.c">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idct_blk_mmx.c">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idct_blk_sse2.c">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\loopfilter_x86.c">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\common\x86\vp8_asm_stubs.c">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\bitstream.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\boolhuff.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\dct.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodeframe.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodeintra.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodemb.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\encodemv.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\ethreading.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\firstpass.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\lookahead.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\mcomp.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\modecosts.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\onyx_if.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\pickinter.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\picklpf.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\ratectrl.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\rdopt.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\segmentation.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\temporal_filter.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\tokenize.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\treewriter.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\vp8_quantize.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\denoising.c">
+      <Filter>Source Files\vp8\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\denoising_sse2.c">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\quantize_sse4.c">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\quantize_ssse3.c">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\vp8_enc_stubs_mmx.c">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\vp8_enc_stubs_sse2.c">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\vp8_quantize_sse2.c">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\dboolhuff.c">
+      <Filter>Source Files\vp8\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\decodeframe.c">
+      <Filter>Source Files\vp8\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\decodemv.c">
+      <Filter>Source Files\vp8\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\detokenize.c">
+      <Filter>Source Files\vp8\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\onyxd_if.c">
+      <Filter>Source Files\vp8\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\decoder\threading.c">
+      <Filter>Source Files\vp8\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\vp8_cx_iface.c">
+      <Filter>Source Files\vp8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp8\vp8_dx_iface.c">
+      <Filter>Source Files\vp8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_alloccommon.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_blockd.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_common_data.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_debugmodes.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_entropy.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_entropymode.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_entropymv.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_filter.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_frame_buffers.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_idct.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_loopfilter.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_mvref_common.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_pred_common.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_quant_common.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_reconinter.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_reconintra.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_rtcd.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_scale.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_scan.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_seg_common.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_thread_common.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\vp9_tile_common.c">
+      <Filter>Source Files\vp9\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\common\x86\vp9_idct_intrin_sse2.c">
+      <Filter>Source Files\vp9\common\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_aq_complexity.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_aq_cyclicrefresh.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_aq_variance.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_avg.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_bitstream.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_context_tree.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_cost.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_dct.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encodeframe.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encodemb.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encodemv.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_encoder.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_ethread.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_extend.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_firstpass.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_lookahead.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_mbgraph.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_mcomp.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_picklpf.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_pickmode.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_quantize.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_ratectrl.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_rd.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_rdopt.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_resize.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_segmentation.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_skin_detection.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_speed_features.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_subexp.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_svc_layercontext.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_temporal_filter.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_tokenize.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\vp9_treewriter.c">
+      <Filter>Source Files\vp9\encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_avg_intrin_sse2.c">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_dct_sse2.c">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_dct_ssse3.c">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_error_intrin_avx2.c">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_quantize_sse2.c">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_decodeframe.c">
+      <Filter>Source Files\vp9\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_decodemv.c">
+      <Filter>Source Files\vp9\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_decoder.c">
+      <Filter>Source Files\vp9\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_detokenize.c">
+      <Filter>Source Files\vp9\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_dsubexp.c">
+      <Filter>Source Files\vp9\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\decoder\vp9_dthread.c">
+      <Filter>Source Files\vp9\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\vp9_cx_iface.c">
+      <Filter>Source Files\vp9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\libvpx\vp9\vp9_dx_iface.c">
+      <Filter>Source Files\vp9</Filter>
+    </ClCompile>
+    <ClCompile Include="vpx_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_ports\emms.asm">
+      <Filter>Source Files\vpx-ports</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\halfpix_variance_impl_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\intrapred_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\intrapred_ssse3.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\inv_wht_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\loopfilter_mmx.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_mmx.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_sse3.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_sse4.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad_ssse3.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\sad4d_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\subpel_variance_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\subtract_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\variance_impl_mmx.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_convolve_copy_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_8t_ssse3.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_bilinear_sse2.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\vpx_subpixel_bilinear_ssse3.asm">
+      <Filter>Source Files\vpx-dsp\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\copy_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\copy_sse3.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\dequantize_mmx.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idctllm_mmx.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\idctllm_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\iwalsh_mmx.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\iwalsh_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\loopfilter_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\mfqe_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\postproc_mmx.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\postproc_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\recon_mmx.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\recon_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\subpixel_mmx.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\subpixel_sse2.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\subpixel_ssse3.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\vp8_loopfilter_mmx.asm">
+      <Filter>Source Files\vp8\common\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\dct_mmx.asm">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\dct_sse2.asm">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\encodeopt.asm">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\fwalsh_sse2.asm">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\quantize_mmx.asm">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\encoder\x86\temporal_filter_apply_sse2.asm">
+      <Filter>Source Files\vp8\encoder\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_error_sse2.asm">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_temporal_filter_apply_sse2.asm">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_dct_mmx.asm">
+      <Filter>Source Files\vp9\encoder\x86</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vpx.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

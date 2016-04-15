@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\pdcurses">
+      <UniqueIdentifier>{df9ac9cc-6eb7-4875-b30e-4ecb95dad84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32">
+      <UniqueIdentifier>{4245789f-75fb-43de-90e1-aadba4edd446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\addch.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\addchstr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\addstr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\attr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\beep.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\bkgd.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\border.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\clear.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\color.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\debug.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\delch.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\deleteln.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\deprec.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\getch.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\getstr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\getyx.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\inch.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\inchstr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\initscr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\inopts.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\insch.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\insstr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\instr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\kernel.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\keyname.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\mouse.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\move.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\outopts.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\overlay.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\pad.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\panel.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\printw.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\refresh.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\scanw.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\scr_dump.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\scroll.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\slk.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\termattr.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\terminfo.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\touch.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\util.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\pdcurses\window.c">
+      <Filter>Source Files\pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\win32\pdcclip.c">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\win32\pdcdisp.c">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\win32\pdcgetsc.c">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\win32\pdckbd.c">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\win32\pdcscrn.c">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\win32\pdcsetsc.c">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\toxcore-deps\PDCurses\win32\pdcutil.c">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\toxcore-deps\PDCurses\win32\pdcurses.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\toxcore-deps\PDCurses\curses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\toxcore-deps\PDCurses\curspriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\toxcore-deps\PDCurses\panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\toxcore-deps\PDCurses\term.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

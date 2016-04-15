@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{05053438-a28d-43b2-b8be-b9574615c160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\alc">
+      <UniqueIdentifier>{18b85349-513a-4ba9-8697-56251578942f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\alc\effects">
+      <UniqueIdentifier>{9e0679fc-e1da-4564-8d38-3f777e8921f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\alc\backends">
+      <UniqueIdentifier>{204f2fb3-3e39-4027-9383-3304777bd0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openal">
+      <UniqueIdentifier>{654f8b14-e721-4285-95bd-f35fc7f7f972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\common\atomic.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\common\rwlock.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\common\threads.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\common\uintmap.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\ALc.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\alcConfig.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\alcRing.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\ALu.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\bs2b.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\bsinc.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\helpers.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\hrtf.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\mixer.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\mixer_c.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\mixer_sse.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\mixer_sse2.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\mixer_sse3.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\mixer_sse41.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\panning.c">
+      <Filter>Source Files\alc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\autowah.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\chorus.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\compressor.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\dedicated.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\distortion.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\echo.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\equalizer.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\flanger.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\modulator.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\null.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\effects\reverb.c">
+      <Filter>Source Files\alc\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\backends\base.c">
+      <Filter>Source Files\alc\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\backends\loopback.c">
+      <Filter>Source Files\alc\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\backends\null.c">
+      <Filter>Source Files\alc\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\backends\wave.c">
+      <Filter>Source Files\alc\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\Alc\backends\winmm.c">
+      <Filter>Source Files\alc\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alAuxEffectSlot.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alBuffer.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alEffect.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alError.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alExtension.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alFilter.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alListener.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alSource.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alState.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\alThunk.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uTox-deps\openal-soft\OpenAL32\sample_cvt.c">
+      <Filter>Source Files\openal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\uTox-deps\openal-soft\include\AL\al.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uTox-deps\openal-soft\include\AL\alc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uTox-deps\openal-soft\include\AL\alext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uTox-deps\openal-soft\include\AL\efx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uTox-deps\openal-soft\include\AL\efx-creative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uTox-deps\openal-soft\include\AL\efx-presets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

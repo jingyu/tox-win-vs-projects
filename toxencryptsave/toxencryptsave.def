@@ -1,0 +1,14 @@
+LIBRARY toxencryptsave
+EXPORTS
+  toxes_version_major
+  toxes_version_minor
+  toxes_version_patch
+  toxes_version_is_compatible
+  tox_pass_encrypt
+  tox_pass_decrypt
+  tox_derive_key_from_pass
+  tox_derive_key_with_salt
+  tox_get_salt
+  tox_pass_key_encrypt
+  tox_pass_key_decrypt
+  tox_is_data_encrypted
