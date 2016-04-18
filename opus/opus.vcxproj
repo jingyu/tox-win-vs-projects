@@ -71,27 +71,27 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -164,7 +164,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist ..\..\toxcore-deps\opus\win32\version.h echo #define PACKAGE_VERSION "1.1.2" &gt; ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Generate version include file</Message>
@@ -187,7 +187,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist ..\..\toxcore-deps\opus\win32\version.h echo #define PACKAGE_VERSION "1.1.2" &gt; ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Generate version include file</Message>
@@ -199,13 +199,19 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;OPUS_BUILD;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../toxcore-deps/opus;../../toxcore-deps/opus/include;../../toxcore-deps/opus/win32;../../toxcore-deps/opus/celt;../../toxcore-deps/opus/silk;../../toxcore-deps/opus/silk/fixed;../../toxcore-deps/opus/silk/float</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4133;4334;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Message>Generate version include file</Message>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">
     <ClCompile>
@@ -213,13 +219,19 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;OPUS_BUILD;OPUS_EXPORT=;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../toxcore-deps/opus;../../toxcore-deps/opus/include;../../toxcore-deps/opus/win32;../../toxcore-deps/opus/celt;../../toxcore-deps/opus/silk;../../toxcore-deps/opus/silk/fixed;../../toxcore-deps/opus/silk/float</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4133;4334;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Message>Generate version include file</Message>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -242,7 +254,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist ..\..\toxcore-deps\opus\win32\version.h echo #define PACKAGE_VERSION "1.1.2" &gt; ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Generate version include file</Message>
@@ -269,7 +281,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist ..\..\toxcore-deps\opus\win32\version.h echo #define PACKAGE_VERSION "1.1.2" &gt; ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Generate version include file</Message>
@@ -283,8 +295,10 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;OPUS_BUILD;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../toxcore-deps/opus;../../toxcore-deps/opus/include;../../toxcore-deps/opus/win32;../../toxcore-deps/opus/celt;../../toxcore-deps/opus/silk;../../toxcore-deps/opus/silk/fixed;../../toxcore-deps/opus/silk/float</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4133;4334;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -292,6 +306,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Message>Generate version include file</Message>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">
     <ClCompile>
@@ -301,8 +319,10 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;OPUS_BUILD;OPUS_EXPORT=;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;_USRDLL;OPUS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../toxcore-deps/opus;../../toxcore-deps/opus/include;../../toxcore-deps/opus/win32;../../toxcore-deps/opus/celt;../../toxcore-deps/opus/silk;../../toxcore-deps/opus/silk/fixed;../../toxcore-deps/opus/silk/float</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4133;4334;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -310,6 +330,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>copy version.h.in ..\..\toxcore-deps\opus\win32\version.h</Command>
+      <Message>Generate version include file</Message>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\toxcore-deps\opus\celt\bands.c" />

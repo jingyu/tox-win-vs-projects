@@ -12,8 +12,13 @@
 #define INLINE      __forceinline
 #define ARCH_ARM 0
 #define ARCH_MIPS 0
+#ifdef _WIN64
+#define ARCH_X86 0
+#define ARCH_X86_64 1
+#else
 #define ARCH_X86 1
 #define ARCH_X86_64 0
+#endif
 #define HAVE_EDSP 0
 #define HAVE_MEDIA 0
 #define HAVE_NEON 0

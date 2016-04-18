@@ -1,0 +1,19 @@
+#ifndef __OPUS_VERSION_H__
+#define __OPUS_VERSION_H__
+
+#define PACKAGE_VERSION "1.1.2" 
+
+/* fix opus_defines.h, no _WIN64 check */
+#ifndef OPUS_EXPORT
+# if defined(_WIN64)
+#  ifdef OPUS_BUILD
+#   define OPUS_EXPORT __declspec(dllexport)
+#  else
+#   define OPUS_EXPORT
+#  endif
+# endif
+#endif
+
+#endif
+
+

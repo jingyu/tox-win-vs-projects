@@ -761,6 +761,21 @@
     <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_temporal_filter_apply_sse2.asm">
       <Filter>Source Files\vp9\encoder\x86</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp8\common\x86\loopfilter_block_sse2_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_quantize_ssse3_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\fwd_txfm_ssse3_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\inv_txfm_ssse3_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\toxcore-deps\libvpx\vpx_dsp\x86\ssim_opt_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\toxcore-deps\libvpx\vp9\encoder\x86\vp9_dct_mmx.asm">
